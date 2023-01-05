@@ -4,10 +4,13 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Trần Công Minh - PH19127</Text>
+      <Text style={styles.text}>Trần Công Minh - PH19127</Text>
+      <Text style={styles.text}>Địa chỉ: Hà Nội</Text>
+      <Text style={styles.text}>Email: minhtcph19127@fpt.edu.vn</Text>
+      <Text style={styles.text}>SDT: 0333888888</Text>
       <StatusBar style="auto" />
     </View>
-  );
+    );
 }
 
 const styles = StyleSheet.create({
@@ -17,4 +20,8 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  text: {
+    color: "red",
+
+  }
 });
